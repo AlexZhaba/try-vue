@@ -1,24 +1,7 @@
-# vuelab
+# Vue-приложение
 
-## Project setup
-```
-npm install
-```
+Вещи, которые можно улучшить в приложении:
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+1. Более грамонтно раскидать компоненты по папкам
+2. Добавить возможность в style разделе писать код на SCSS
+3. Директива clickOutside создает столько хэндлеров на body, сколько элементов ее использует. По идее можно обойтись всего лишь одним. 
